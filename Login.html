@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<div>MyChat</div>
+	</head>
+	<body>
+		<div id="container">
+			<form>
+				<label>Username: </label><input type="text" value="" id="username"></input></div>
+				<label>Password: </label><input type="password" value="" id="password"></input></div>
+				<label></label><input type="button" value="Login" onclick=logear() id="log"></input></div>
+			<script>
+				function logear(){
+				var user = "RenzoT";
+				var pass = "papaya12";
+				var text1 = document.getElementById("username");
+				var text2 = document.getElementById("password");
+				if (user == text1.value && pass == text2.value){
+				    window.alert("Login succesful! :D")
+					}
+					else {window.alert("Invalid user!")}
+				}
+			</script>
+	</body>
+</html>
